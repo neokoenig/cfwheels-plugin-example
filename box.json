@@ -2,7 +2,7 @@
     "name":"CFWheels Example Plugin",
     "version":"0.0.2",
     "author":"Tom King",
-    "location":"https://github.com/neokoenig/cfwheels-plugin-example/releases/download/0.2/helloWorld-0.2.zip",
+    "location":"neokoenig/cfwheels-plugin-example#v0.0.2",
     "directory":"/plugins/",
     "createPackageDirectory":true,
     "packageDirectory":"",
@@ -49,7 +49,7 @@
         
     },
     "scripts":{
-        "postVersion":"package set location='neokoenig/cfwheels-shortcodes#v`package version`'",
+        "postVersion":"package set location='neokoenig/cfwheels-plugin-example#v`package version`'",
         "postPublish":"!git push --follow-tags",
         "patch-release":"bump --patch && publish",
         "minor-release":"bump --minor && publish",
