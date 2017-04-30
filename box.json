@@ -1,8 +1,8 @@
 {
     "name":"CFWheels Example Plugin",
-    "version":"0.0.2",
+    "version":"0.0.3",
     "author":"Tom King",
-    "location":"neokoenig/cfwheels-plugin-example#v0.0.2",
+    "location":"neokoenig/cfwheels-plugin-example#v0.0.3",
     "directory":"/plugins/",
     "createPackageDirectory":true,
     "packageDirectory":"",
