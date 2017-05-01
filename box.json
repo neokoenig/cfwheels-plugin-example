@@ -1,90 +1,22 @@
 {
     "name":"CFWheels Example Plugin",
-    "version":"0.0.3",
+    "version":"0.0.4",
     "author":"Tom King",
-    "location":"neokoenig/cfwheels-plugin-example#v0.0.3",
+    "location":"neokoenig/cfwheels-plugin-example#v0.0.4",
     "directory":"/plugins/",
     "createPackageDirectory":true,
-    "packageDirectory":"",
+    "packageDirectory":"HelloWorld",
     "homepage":"https://github.com/neokoenig/cfwheels-plugin-example",
-    "documentation":"",
-    "repository":{
-        "type":"",
-        "URL":""
-    },
-    "bugs":"",
     "slug":"cfwheels-plugin-example",
     "shortDescription":"CFWheels Example Plugin",
-    "description":"",
-    "instructions":"",
-    "changelog":"",
     "type":"cfwheels-plugins",
     "keywords":"test",
     "private":false,
-    "engines":[
-        {
-            "type":"",
-            "version":""
-        }
-    ],
-    "defaultEngine":"",
-    "defaultPort":0,
-    "projectURL":"",
-    "license":[
-        {
-            "type":"",
-            "URL":""
-        }
-    ],
-    "contributors":[
-        
-    ],
-    "dependencies":{
-        
-    },
-    "devDependencies":{
-        
-    },
-    "installPaths":{
-        
-    },
     "scripts":{
         "postVersion":"package set location='neokoenig/cfwheels-plugin-example#v`package version`'",
         "postPublish":"!git push --follow-tags",
         "patch-release":"bump --patch && publish",
         "minor-release":"bump --minor && publish",
         "major-release":"bump --major && publish"
-    },
-    "ignore":[
-        
-    ],
-    "testbox":{
-        "runner":[
-            {
-                "default":""
-            }
-        ],
-        "labels":[
-            
-        ],
-        "reporter":"",
-        "reporterResults":"",
-        "bundles":[
-            ""
-        ],
-        "directory":{
-            "mapping":"",
-            "recurse":true
-        },
-        "watchers":[
-            
-        ],
-        "notify":{
-            "emails":[
-                
-            ],
-            "growl":"",
-            "URL":""
-        }
     }
 }
